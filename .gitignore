@@ -41,6 +41,19 @@ build/Release
 node_modules/
 jspm_packages/
 
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Environment files
+.env
+
+# VS Code settings
+.vscode/
+
 # Snowpack dependency directory (https://snowpack.dev/)
 web_modules/
 
@@ -140,12 +153,9 @@ vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
 
-#Playwirght
-playwright-report/
-test-results/
-
 # Playwright
 /playwright-report/
 /blob-report/
 /playwright/.cache/
 /playwright/.auth/
+test-results/
